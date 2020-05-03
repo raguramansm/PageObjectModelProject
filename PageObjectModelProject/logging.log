@@ -1,0 +1,12 @@
+2020-05-03 00:35:24 INFO  HomePageTest:31 - Launching the browser
+2020-05-03 00:35:42 INFO  HomePageTest:39 - Contained button is closed
+2020-05-03 00:35:42 INFO  HomePageTest:31 - Launching the browser
+2020-05-03 00:36:03 INFO  HomePageTest:31 - Launching the browser
+2020-05-03 00:40:52 INFO  HomePageTest:31 setup - Launching the browser
+2020-05-03 00:41:11 INFO  HomePageTest:39 verifyCloseContainerTest - Contained button is closed
+2020-05-03 00:46:40 INFO  HomePageTest:setup:31 - Launching the browser
+2020-05-03 00:46:56 INFO  HomePageTest:verifyCloseContainerTest:39 - Contained button is closed
+2020-05-03 20:21:41 INFO  HomePageTest:setup:31 - Launching the browser
+2020-05-03 20:22:01 INFO  HomePageTest:verifyCloseContainerTest:39 - Contained button is closed
+2020-05-03 20:22:02 INFO  HomePageTest:setup:31 - Launching the browser
+2020-05-03 20:22:21 INFO  HomePageTest:setup:31 - Launching the browser
