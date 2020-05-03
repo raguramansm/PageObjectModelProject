@@ -18,16 +18,15 @@ import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.xml.XmlSuite;
 
-import com.aventstack.extentreports.ExtentReporter;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
 public class ExtentReportListenerTestNG implements IReporter {
-	private ExtentReporter extent;
+	private ExtentReports extent;
 
 	public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites, String outputDirectory) {
-		extent = new ExtentReporter(outputDirectory + File.separator + "Extent.html", true);
+		extent = new ExtentReports(outputDirectory + File.separator + "Extent.html", true);
 
 		for (ISuite suite : suites) {
 			Map<String, ISuiteResult> result = suite.getResults();
